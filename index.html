@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./logo-Audi-500x173.png" alt="" srcset="" class="logo">
+            <nav> 
+                <ul id="menuList">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="./menu.png" alt="" srcset="" class="logo2" onclick="togglemenu()">
+        </div>
+        <div class="col2">
+            <img src="./A1911955_large.jpg" alt="" srcset="" class="img2">
+        </div>
+        <div class="col3">
+            <h1 class="text3">Performance is an attitude.</h1>
+            <h1 class="text4">The Audi RS7: Unleashing Power and Elegance. A high-performance luxury car that
+                combinesstunning design with exhilarating performance. Experience the thrill of the road like never before.
+            </h1>
+            <img src="./audi-rs7-emblem.jpg" alt="" class="img3">
+        </div>
+        <div class="col4">
+            <img src="./A1911958_large.jpg" alt="" srcset="" class="img4">
+        </div>
+        <div class="col5">
+            <h1 class="text5">Power up to</h1>
+            <h1 class="text16">630</h1>
+            <h1 class="text6">ps</h1>
+            <div class="vertical-line"></div>
+            <h1 class="text7">Acceleration from (0-62mph)</h1>
+            <h1 class="text8">3.4</h1>
+            <h1 class="text9">seconds</h1>
+            <div class="vertical-line2"></div>
+            <h1 class="text10">Torque</h1>
+            <h1 class="text11">850</h1>
+            <h1 class="text12">Nm</h1>
+            <h1 class="text13">The above performance data relates to the Audi RS 7 Sportback performance.</h1>
+        </div>
+        <div class="col6">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./A1911989_medium.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./A1911944_medium.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./A1911945_medium.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./A1911947_medium.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./A1911946_medium.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./A1911988_medium.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                    delay: 1200,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+    
+    
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+    
+                // And if we need scrollbar
+            });
+        </script>
+        <div class="col7">
+            <h1 class="text14">Extraordinary at first sight</h1>
+            <h1 class="text15">Prepare to turn heads with the captivating design and dynamic roofline of the RS 7 Sportback
+                performance.</h1>
+        </div>
+        <div class="col8">
+            <h1 class="text17">Engine Pack</h1>
+            <h1 class="text18">Twin-turbocharged 4.0-liter V8 engine</h1>
+            <h1 class="text19">Breathtaking power and performance</h1>
+            <h1 class="text20">Exhilarating acceleration</h1>
+            <h1 class="text21">Unleashes pure adrenaline on the road</h1>
+            <h1 class="text22">Tour Pack</h1>
+            <h1 class="text23">Camera-based traffic sign recognition</h1>
+            <h1 class="text24">Audi pre-sense basic</h1>
+            <h1 class="text25">High-beam assist</h1>
+            <h1 class="text26">Lane departure warning/emergency assist</h1>
+            <img src="./ce661480db2577af5e179a7ed2c8da68x.jpg" alt="" class="img6">
+            <img src="./A1911992_large.jpg" alt="" class="img7">
+            <img src="./310328.jpg" alt="" class="img8">
+        </div>
+        <div class="col9">
+            <h1 class="text27">Advanced technology.</h1>
+            <h1 class="text28">The RS 7 Sportback performance is packed with driver assistance features and advanced
+                infotainment.</h1>
+        </div>
+        <div class="col10"></div>
+        <div class="col11">
+            <h1 class="text29">Exclusive design: The virtual cockpit Is designed exclusively for RS 7 Sportback performance.
+                It includes an RS menu with power and torque display as well as G meter, lap timer and tyre pressure
+                monitoring system.</h1>
+        </div>
+        <div class="col12">
+            <h1 class="text30">RS 7 Sportback performance <br> specifications</h1>
+            <h1 class="text31">Take a detailed look at the facts, figures and features that make up your ideal model.</h1>
+            <img src="./A1911948_medium.jpg" alt="" class="img9">
+            <h1 class="text32">Details & dimensions</h1>
+            <button class="button">packs</button>
+        </div>
+        <div class="col13">
+            <video src="./15912_amtv-content1080p-web.mov" class="video" controls></video>
+            <h1 class="text33">RS 7 Sportback performance</h1>
+            <h1 class="text34">1</h1>
+        </div>
+        <div class="col14">
+            <h1 class="text35">Back to the top</h1>
+            <h1 class="text36"><a href="#">Connect</a></h1>
+            <h1 class="text37"><a href="#">Audi World</a></h1>
+            <h1 class="text38"><a href="#">Assistance</a></h1>
+            <a href="#">
+                <img src="./icons8-top-50.png" alt="" class="img10">
+            </a>
+            <h1 class="text39">
+                <a href="#">Contact Us</a><br>
+                <a href="#">Request a Callback</a><br>
+                <a href="#">Locate a Centre</a><br>
+                <a href="#">Book a Service Online</a><br>
+                <a href="#">Book a Test Drive</a><br>
+                <a href="#">Take a Live Tour</a><br>
+                <a href="#">Subscribe to Newsletter</a><br>
+            </h1>
+            <h1 class="text40">
+                <a href="#">Careers </a><br>
+                <a href="#">Repair Partnering with Audi</a><br>
+                <a href="#">WLTP</a><br>
+                <a href="#">Audi presents</a><br>
+                <a href="#">Integrity and Compliance</a><br>
+                <a href="#">Who Regulates Us</a><br>
+                <a href="#"> Future is an attitude</a><br>
+                <a href="#">Latest Updates</a><br>
+            </h1>
+            <h1 class="text41">
+                <a href="#">Covid-19 update</a><br>
+                <a href="#">Road Assistance & Insurance</a><br>
+                <a href="#">Imports & Exports</a><br>
+                <a href="#"> Audi Glossary</a><br>
+                <a href="#"> Emissions Information</a><br>
+            </h1>
+            <div class="horizontal-line"></div>
+            <a href="#">
+                <img src="./icons8-facebook-32 (1).png" alt="" class="img11">
+            </a>
+            <a href="#">
+                <img src="./icons8-instagram-50.png" alt="" class="img12">
+            </a>
+            <a href="#">
+                <img src="./icons8-youtube-64.png" alt="" class="img13">
+            </a>
+            <a href="#">
+                <img src="./icons8-twitter-50.png" alt="" class="img14">
+            </a>
+            <a href="#">
+                <img src="./icons8-pinterest-p-32.png" alt="" class="img15">
+            </a>
+            <h1 class="text42">© Audi United Kingdom 2023 All Rights Reserved.</h1>
+            <h1 class="text43">Legal & Privacy
+                Manage Cookies
+                Integrity and Compliance
+                Coronavirus Information
+                Audi Connect Terms and Conditions
+                Who Regulates Us
+                Centres List</h1>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if (menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
